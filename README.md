@@ -1,8 +1,3 @@
-# React + Vite
+# Cocktail Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application uses reactpress, a wordpress plugin that allows you to add react apps to your site. You create a react app in a localwp directory, build it, then deploy that version of your wp site. I used Vite to create the react app and TailwindCSS for styling. Hits a random coktail API that returns data necessary for the recipe card.
